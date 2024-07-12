@@ -1,5 +1,4 @@
 .header {
-  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,12 +34,13 @@
 
 .header__image {
   width: 100%;
+  max-width: 984px;
   margin-top: 6.4%;
 }
 
 @media screen and (max-width: 768px) {
   .header__title {
-    line-height: 79px;
+    line-height: 7, 9px;
     max-width: 530px;
     font-size: 75px;
     margin-top: 9%;
@@ -72,14 +72,14 @@
     margin-top: 50px;
     margin-bottom: 16px;
     font-size: 40px;
-    line-height: 44px;
+    line-height: 4, 4px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header__subtitle {
     font-size: 16px;
-    line-height: 20px;
+    line-height: 2, 0px;
   }
 }
 
