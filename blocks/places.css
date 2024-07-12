@@ -51,7 +51,7 @@
 }
 
 .places__image:hover {
-  background: rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
 }
 
 .places__description {
@@ -66,7 +66,6 @@
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
   padding: 13px 20px;
   margin-top: 4.8%;
-  text-decoration: none;
   grid-row: 3;
   grid-column: 1;
 }
@@ -84,6 +83,10 @@
   font-size: 17px;
   color: rgba(255, 255, 255, 1);
   line-height: 21.78px;
+}
+
+.places__button-link {
+  text-decoration: none;
 }
 
 .places__paragraph {
