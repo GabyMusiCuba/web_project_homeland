@@ -47,6 +47,7 @@
   object-fit: cover;
   grid-row: 2;
   grid-column: 1;
+  box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.5);
 }
 
 .places__image:hover {
@@ -60,9 +61,10 @@
 .places__button {
   max-width: 289px;
   max-height: 48px;
-  border-radius: 4px 0px 0px 0px;
+  border-radius: 4px;
   text-decoration: none;
   background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
   padding: 13px 20px;
   margin-top: 4.8%;
   grid-row: 3;
@@ -197,5 +199,11 @@
   .places__heading {
     font-size: 32px;
     line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .places__image {
+    box-shadow: none;
   }
 }
