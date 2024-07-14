@@ -122,6 +122,7 @@
 @media screen and (max-width: 768px) {
   .places__image {
     max-height: 340px;
+    max-width: 340px;
   }
 }
 
@@ -205,5 +206,7 @@
 @media screen and (max-width: 375px) {
   .places__image {
     box-shadow: none;
+    max-width: 320px;
+    max-height: 320px;
   }
 }
