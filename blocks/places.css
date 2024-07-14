@@ -153,30 +153,36 @@
     flex-direction: column;
     align-items: center;
     margin: 0;
+    max-width: 384px;
   }
 }
 
 @media screen and (max-width: 590px) {
   .places__heading {
     margin: 0 16px 30px;
+    align-self: start;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .places__website {
+    align-self: start;
+    margin-right: 16px;
+    margin-left: 16px;
   }
 }
 
 @media screen and (max-width: 590px) {
   .places__url-heading {
-    margin: 0 16px 8px;
-  }
-}
-
-@media screen and (max-width: 590px) {
-  .places__artist {
-    margin: 0 16px;
+    margin-bottom: 8px;
+    align-self: start;
   }
 }
 
 @media screen and (max-width: 590px) {
   .places__image {
     margin-top: 30px;
+    width: 100%;
   }
 }
 
@@ -208,7 +214,7 @@
 @media screen and (max-width: 375px) {
   .places__image {
     box-shadow: none;
-    max-width: 320px;
+
     max-height: 320px;
   }
 }
